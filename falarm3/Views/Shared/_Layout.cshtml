@@ -12,10 +12,9 @@
             <div class="navbar navbar-inverse col-md-5 navbar-hide">
                     <ul class="nav  navbar-nav navbar-nav-left">
                         <li>@Html.ActionLink("About", "About", "Home")</li>
-                        <li>@Html.ActionLink("Partners", "About", "Home")</li>
-                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Coverage", "Contact", "Home")</li>
                     </ul>
-            </div>
+                </div>
         <div class="col-md-2 icon"><img src="~/Content/Images/CoStar.jpg" alt="Img" /></div>
             <div class="navbar navbar-inverse col-md-5">
                 <div class="navbar-header">
@@ -26,15 +25,12 @@
                     </button>
                 </div>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class ="extras">@Html.ActionLink("About", "About", "Home")</li>
-                        <li class="extras">@Html.ActionLink("Partners", "About", "Home")</li>
-                        <li class="extras">@Html.ActionLink("Contact", "Contact", "Home")</li>
-                        
-                        <li>@Html.ActionLink("Sign up", "About", "Home")</li>
-                        <li>@Html.ActionLink("Login", "About", "Home")</li>
-                        <li>@Html.ActionLink("Coverage", "Contact", "Home")</li>
-                    </ul>
+                        <ul class="nav navbar-nav">
+                            <li class="extras">@Html.ActionLink("About", "About", "Home")</li>
+                            <li class="extras">@Html.ActionLink("Coverage", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("Login", "About", "Home")</li>
+                            <li >@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
                 </div>
             </div>
         </div>

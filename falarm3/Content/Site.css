@@ -30,8 +30,8 @@ textarea {
     top: 10px;
     height: auto;
     background-color: #222222;
-    max-width: 80%;
-    margin-left: 10%;
+    max-width: 76%;
+    margin-left: 12%;
 }
 
 
@@ -39,17 +39,19 @@ textarea {
     border-color: #222222
 }
 
-  
 @media (max-width: 992px) {
   .navbar-hide {
     display: none;
   }
 }
+
 @media (min-width: 992px) {
   .navbar-nav-left {
       float: right;
   }
 }
+
+
   
 @media (min-width: 992px) {
   .nav li.extras {
@@ -60,10 +62,7 @@ textarea {
 .icon {
     text-align: center
 }
-.col-md-5 .collapse
- {
-    padding-left : 0px
-}
+
 
 @media (max-width: 992px) {
     .col-md-5 .collapse {
@@ -72,15 +71,16 @@ textarea {
 }
 
 @media (min-width: 768px) {
-    ul.navbar-nav {
-        border-bottom-width: 2px;
-        border-bottom-color: #CCCCCC;
-        padding-top: 20px;
+    ul.navbar-nav { 
+      border-top: 2px #555555 solid;
+      border-bottom: 2px #555555 solid;
+        margin-top: 20px;
         font-size: 18px;
+      
     }
 }
 
- .navbar-nav > li > a:hover,
- .navbar-nav > li > a:focus {
-  background-color: #E15151;
+ .navbar-nav > li:hover,
+ .navbar-nav > li:focus {
+  background-color: #111111;
 }
